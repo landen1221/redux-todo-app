@@ -1,0 +1,21 @@
+.TodoForm {
+    text-align: center;
+    background-color: #cedeff;
+    min-height: 20%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 1em;
+}
+
+
+
+.TodoForm button {
+    background-color: #cedeff;
+    border: none;
+    box-shadow: none;
+}

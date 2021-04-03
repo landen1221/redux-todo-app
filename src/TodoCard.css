@@ -1,0 +1,16 @@
+.TodoCard {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+}
+
+.TodoCard .paper {
+  margin: 5px;
+  padding: 8px;
+  text-align: left;
+}
+
+#trash {
+  color: maroon;
+}
