@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import TextField from "@material-ui/core/TextField";
 import "./TodoForm.css";
 import { useDispatch } from "react-redux";
 import { v4 as uuid } from "uuid";
 
-const TodoForm = ({todos}) => {
+const TodoForm = () => {
     const dispatch = useDispatch()
     const addTodo = (todo) => dispatch({type: "ADD_TODO", payload: todo})
     const INITIAL_STATE = { task: "" };
