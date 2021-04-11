@@ -5,6 +5,7 @@ import { useDispatch } from "react-redux";
 import { v4 as uuid } from "uuid";
 
 const TodoForm = () => {
+    console.log('git testing')
     const dispatch = useDispatch()
     const addTodo = (todo) => dispatch({type: "ADD_TODO", payload: todo})
     const INITIAL_STATE = { task: "" };
